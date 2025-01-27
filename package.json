@@ -1,0 +1,46 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.1.0",
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-native-picker/picker": "^2.9.0",
+    "@react-navigation/native": "^7.0.14",
+    "@react-navigation/stack": "^7.1.1",
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "expo": "~52.0.23",
+    "expo-image-picker": "^16.0.3",
+    "expo-local-authentication": "^15.0.2",
+    "expo-secure-store": "^14.0.0",
+    "expo-status-bar": "~2.0.0",
+    "express": "^4.21.2",
+    "gradlew": "^0.0.1-security",
+    "mongoose": "^8.9.2",
+    "nodemailer": "^6.9.16",
+    "nodemon": "^3.1.9",
+    "react": "18.3.1",
+    "react-native": "0.76.5",
+    "react-native-gesture-handler": "~2.20.2",
+    "react-native-reanimated": "~3.16.1",
+    "react-native-safe-area-context": "4.12.0",
+    "react-native-screens": "~4.4.0",
+    "react-native-vector-icons": "^10.2.0",
+    "react-navigation": "^5.0.0",
+    "tcomb-form-native": "^0.6.20"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
